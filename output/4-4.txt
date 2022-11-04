@@ -1,0 +1,213 @@
+SIM: Woolie Wipeout has begun with 4 woolie/s and a maximum of 4 woolie/s on the course
+KRAKEN: let the show begin!
+KRAKEN: turning on course...
+WOOLIE: Woolie_1(total=8, remaining=8, fallen=0, preserver=Optional.empty) enters line
+WOOLIE: Woolie_4(total=10, remaining=10, fallen=0, preserver=Optional.empty) enters line
+WOOLIE: Woolie_3(total=8, remaining=8, fallen=0, preserver=Optional.empty) enters line
+WOOLIE: Woolie_2(total=10, remaining=10, fallen=0, preserver=Optional.empty) enters line
+WOOLIE: Woolie_1(total=8, remaining=8, fallen=0, preserver=Optional.empty) enters course
+WOOLIE: Woolie_4(total=10, remaining=10, fallen=0, preserver=Optional.empty) enters course
+KRAKEN: Woolie_1 gets Preserver(id=1, buoyancy=14)
+KRAKEN: Woolie_4 gets Preserver(id=2, buoyancy=18)
+WOOLIE: Woolie_4(total=10, remaining=10, fallen=0, preserver=Optional[Preserver(id=2, buoyancy=17)]) crossing course...
+WOOLIE: Woolie_1(total=8, remaining=8, fallen=0, preserver=Optional[Preserver(id=1, buoyancy=13)]) crossing course...
+KRAKEN: OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=4, numOnCourse=1, fallenWoolie=false, running=true, open=true, wooliesWaiting=3)
+	WOOLIE: Woolie_4(total=10, remaining=9, fallen=0, preserver=Optional[Preserver(id=2, buoyancy=16)]) fell of the course!
+WOOLIE: Woolie_4(total=10, remaining=9, fallen=1, preserver=Optional[Preserver(id=2, buoyancy=16)]) leaves course
+WOOLIE: Woolie_3(total=8, remaining=8, fallen=0, preserver=Optional.empty) enters course
+KRAKEN: Woolie_4 returns Preserver(id=2, buoyancy=16)
+WOOLIE: Woolie_4(total=10, remaining=9, fallen=1, preserver=Optional.empty) enters line
+KRAKEN: Woolie_3 gets Preserver(id=2, buoyancy=16)
+WOOLIE: Woolie_3(total=8, remaining=8, fallen=0, preserver=Optional[Preserver(id=2, buoyancy=15)]) crossing course...
+WOOLIE: Woolie_1(total=8, remaining=7, fallen=0, preserver=Optional[Preserver(id=1, buoyancy=12)]) crossing course...
+KRAKEN: A Woolie has fallen!  Turning off course...
+OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=4, numOnCourse=2, fallenWoolie=true, running=false, open=true, wooliesWaiting=2)
+KRAKEN: A Woolie has fallen!  Waiting for Woolies to exit course...
+KRAKEN: OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=4, numOnCourse=2, fallenWoolie=true, running=false, open=true, wooliesWaiting=2)
+KRAKEN: A Woolie has fallen!  Waiting for Woolies to exit course...
+KRAKEN: OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=4, numOnCourse=2, fallenWoolie=true, running=false, open=true, wooliesWaiting=2)
+WOOLIE: Woolie_3(total=8, remaining=7, fallen=0, preserver=Optional[Preserver(id=2, buoyancy=15)]) leaves course
+KRAKEN: Woolie_3 returns Preserver(id=2, buoyancy=15)
+WOOLIE: Woolie_3(total=8, remaining=7, fallen=0, preserver=Optional.empty) enters line
+WOOLIE: Woolie_1(total=8, remaining=6, fallen=0, preserver=Optional[Preserver(id=1, buoyancy=12)]) leaves course
+KRAKEN: Woolie_1 returns Preserver(id=1, buoyancy=12)
+WOOLIE: Woolie_1(total=8, remaining=6, fallen=0, preserver=Optional.empty) enters line
+KRAKEN: All Woolies have exited course!  Restarting course...
+WOOLIE: Woolie_2(total=10, remaining=10, fallen=0, preserver=Optional.empty) enters course
+KRAKEN: Woolie_2 gets Preserver(id=1, buoyancy=12)
+WOOLIE: Woolie_4(total=10, remaining=9, fallen=1, preserver=Optional.empty) enters course
+WOOLIE: Woolie_2(total=10, remaining=10, fallen=0, preserver=Optional[Preserver(id=1, buoyancy=11)]) crossing course...
+KRAKEN: Woolie_4 gets Preserver(id=2, buoyancy=15)
+WOOLIE: Woolie_3(total=8, remaining=7, fallen=0, preserver=Optional.empty) enters course
+WOOLIE: Woolie_4(total=10, remaining=9, fallen=1, preserver=Optional[Preserver(id=2, buoyancy=14)]) crossing course...
+KRAKEN: Woolie_3 gets Preserver(id=3, buoyancy=13)
+WOOLIE: Woolie_3(total=8, remaining=7, fallen=0, preserver=Optional[Preserver(id=3, buoyancy=12)]) crossing course...
+	WOOLIE: Woolie_2(total=10, remaining=9, fallen=0, preserver=Optional[Preserver(id=1, buoyancy=10)]) fell of the course!
+WOOLIE: Woolie_2(total=10, remaining=9, fallen=1, preserver=Optional[Preserver(id=1, buoyancy=10)]) leaves course
+WOOLIE: Woolie_3(total=8, remaining=6, fallen=0, preserver=Optional[Preserver(id=3, buoyancy=11)]) crossing course...
+WOOLIE: Woolie_4(total=10, remaining=8, fallen=1, preserver=Optional[Preserver(id=2, buoyancy=13)]) crossing course...
+WOOLIE: Woolie_1(total=8, remaining=6, fallen=0, preserver=Optional.empty) enters course
+KRAKEN: Woolie_2 returns Preserver(id=1, buoyancy=10)
+KRAKEN: Woolie_1 gets Preserver(id=1, buoyancy=10)
+WOOLIE: Woolie_2(total=10, remaining=9, fallen=1, preserver=Optional.empty) enters line
+WOOLIE: Woolie_1(total=8, remaining=6, fallen=0, preserver=Optional[Preserver(id=1, buoyancy=9)]) crossing course...
+WOOLIE: Woolie_2(total=10, remaining=9, fallen=1, preserver=Optional.empty) enters course
+KRAKEN: Woolie_2 gets Preserver(id=4, buoyancy=19)
+WOOLIE: Woolie_2(total=10, remaining=9, fallen=1, preserver=Optional[Preserver(id=4, buoyancy=18)]) crossing course...
+KRAKEN: A Woolie has fallen!  Turning off course...
+OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=4, numOnCourse=4, fallenWoolie=true, running=false, open=true, wooliesWaiting=0)
+KRAKEN: A Woolie has fallen!  Waiting for Woolies to exit course...
+KRAKEN: OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=4, numOnCourse=4, fallenWoolie=true, running=false, open=true, wooliesWaiting=0)
+KRAKEN: A Woolie has fallen!  Waiting for Woolies to exit course...
+KRAKEN: OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=4, numOnCourse=4, fallenWoolie=true, running=false, open=true, wooliesWaiting=0)
+WOOLIE: Woolie_4(total=10, remaining=7, fallen=1, preserver=Optional[Preserver(id=2, buoyancy=13)]) leaves course
+KRAKEN: Woolie_4 returns Preserver(id=2, buoyancy=13)
+WOOLIE: Woolie_3(total=8, remaining=5, fallen=0, preserver=Optional[Preserver(id=3, buoyancy=11)]) leaves course
+KRAKEN: Woolie_3 returns Preserver(id=3, buoyancy=11)
+WOOLIE: Woolie_4(total=10, remaining=7, fallen=1, preserver=Optional.empty) enters line
+WOOLIE: Woolie_2(total=10, remaining=8, fallen=1, preserver=Optional[Preserver(id=4, buoyancy=18)]) leaves course
+KRAKEN: Woolie_2 returns Preserver(id=4, buoyancy=18)
+WOOLIE: Woolie_1(total=8, remaining=5, fallen=0, preserver=Optional[Preserver(id=1, buoyancy=9)]) leaves course
+KRAKEN: Woolie_1 returns Preserver(id=1, buoyancy=9)
+WOOLIE: Woolie_3(total=8, remaining=5, fallen=0, preserver=Optional.empty) enters line
+WOOLIE: Woolie_1(total=8, remaining=5, fallen=0, preserver=Optional.empty) enters line
+WOOLIE: Woolie_2(total=10, remaining=8, fallen=1, preserver=Optional.empty) enters line
+KRAKEN: All Woolies have exited course!  Restarting course...
+WOOLIE: Woolie_4(total=10, remaining=7, fallen=1, preserver=Optional.empty) enters course
+KRAKEN: Woolie_4 gets Preserver(id=1, buoyancy=9)
+WOOLIE: Woolie_4(total=10, remaining=7, fallen=1, preserver=Optional[Preserver(id=1, buoyancy=8)]) crossing course...
+WOOLIE: Woolie_4(total=10, remaining=6, fallen=1, preserver=Optional[Preserver(id=1, buoyancy=7)]) crossing course...
+WOOLIE: Woolie_4(total=10, remaining=5, fallen=1, preserver=Optional[Preserver(id=1, buoyancy=6)]) crossing course...
+WOOLIE: Woolie_4(total=10, remaining=4, fallen=1, preserver=Optional[Preserver(id=1, buoyancy=5)]) crossing course...
+WOOLIE: Woolie_4(total=10, remaining=3, fallen=1, preserver=Optional[Preserver(id=1, buoyancy=4)]) crossing course...
+WOOLIE: Woolie_4(total=10, remaining=2, fallen=1, preserver=Optional[Preserver(id=1, buoyancy=3)]) crossing course...
+WOOLIE: Woolie_4(total=10, remaining=1, fallen=1, preserver=Optional[Preserver(id=1, buoyancy=2)]) crossing course...
+WOOLIE: Woolie_4(total=10, remaining=0, fallen=1, preserver=Optional[Preserver(id=1, buoyancy=2)]) leaves course
+KRAKEN: Woolie_4 returns Preserver(id=1, buoyancy=2)
+WOOLIE: Woolie_3(total=8, remaining=5, fallen=0, preserver=Optional.empty) enters course
+WOOLIE: Woolie_1(total=8, remaining=5, fallen=0, preserver=Optional.empty) enters course
+WOOLIE: Woolie_2(total=10, remaining=8, fallen=1, preserver=Optional.empty) enters course
+	WOOLIE:Woolie_4(total=10, remaining=0, fallen=1, preserver=Optional.empty) finishes course!
+KRAKEN: Woolie_3 can't use Preserver(id=1, buoyancy=2)
+KRAKEN: Woolie_3 gets Preserver(id=5, buoyancy=7)
+	WOOLIE: Woolie_3(total=8, remaining=5, fallen=0, preserver=Optional[Preserver(id=5, buoyancy=6)]) fell of the course!
+WOOLIE: Woolie_3(total=8, remaining=5, fallen=1, preserver=Optional[Preserver(id=5, buoyancy=6)]) leaves course
+KRAKEN: Woolie_2 can't use Preserver(id=1, buoyancy=2)
+KRAKEN: Woolie_2 gets Preserver(id=6, buoyancy=11)
+	WOOLIE: Woolie_2(total=10, remaining=8, fallen=1, preserver=Optional[Preserver(id=6, buoyancy=10)]) fell of the course!
+KRAKEN: Woolie_1 can't use Preserver(id=1, buoyancy=2)
+WOOLIE: Woolie_2(total=10, remaining=8, fallen=2, preserver=Optional[Preserver(id=6, buoyancy=10)]) leaves course
+KRAKEN: Woolie_1 gets Preserver(id=7, buoyancy=6)
+WOOLIE: Woolie_1(total=8, remaining=5, fallen=0, preserver=Optional[Preserver(id=7, buoyancy=5)]) crossing course...
+KRAKEN: Woolie_2 returns Preserver(id=6, buoyancy=10)
+WOOLIE: Woolie_2(total=10, remaining=8, fallen=2, preserver=Optional.empty) enters line
+KRAKEN: Woolie_3 returns Preserver(id=5, buoyancy=6)
+WOOLIE: Woolie_2(total=10, remaining=8, fallen=2, preserver=Optional.empty) enters course
+KRAKEN: Woolie_2 can't use Preserver(id=5, buoyancy=6)
+WOOLIE: Woolie_3(total=8, remaining=5, fallen=1, preserver=Optional.empty) enters line
+WOOLIE: Woolie_3(total=8, remaining=5, fallen=1, preserver=Optional.empty) enters course
+KRAKEN: Woolie_2 gets Preserver(id=8, buoyancy=9)
+WOOLIE: Woolie_2(total=10, remaining=8, fallen=2, preserver=Optional[Preserver(id=8, buoyancy=8)]) crossing course...
+KRAKEN: Woolie_3 gets Preserver(id=5, buoyancy=6)
+WOOLIE: Woolie_3(total=8, remaining=5, fallen=1, preserver=Optional[Preserver(id=5, buoyancy=5)]) crossing course...
+KRAKEN: A Woolie has fallen!  Turning off course...
+OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=4, numOnCourse=3, fallenWoolie=true, running=false, open=true, wooliesWaiting=0)
+KRAKEN: A Woolie has fallen!  Waiting for Woolies to exit course...
+KRAKEN: OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=4, numOnCourse=3, fallenWoolie=true, running=false, open=true, wooliesWaiting=0)
+KRAKEN: A Woolie has fallen!  Waiting for Woolies to exit course...
+KRAKEN: OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=4, numOnCourse=3, fallenWoolie=true, running=false, open=true, wooliesWaiting=0)
+WOOLIE: Woolie_1(total=8, remaining=4, fallen=0, preserver=Optional[Preserver(id=7, buoyancy=5)]) leaves course
+KRAKEN: Woolie_1 returns Preserver(id=7, buoyancy=5)
+WOOLIE: Woolie_1(total=8, remaining=4, fallen=0, preserver=Optional.empty) enters line
+WOOLIE: Woolie_2(total=10, remaining=7, fallen=2, preserver=Optional[Preserver(id=8, buoyancy=8)]) leaves course
+KRAKEN: Woolie_2 returns Preserver(id=8, buoyancy=8)
+WOOLIE: Woolie_3(total=8, remaining=4, fallen=1, preserver=Optional[Preserver(id=5, buoyancy=5)]) leaves course
+KRAKEN: Woolie_3 returns Preserver(id=5, buoyancy=5)
+WOOLIE: Woolie_2(total=10, remaining=7, fallen=2, preserver=Optional.empty) enters line
+WOOLIE: Woolie_3(total=8, remaining=4, fallen=1, preserver=Optional.empty) enters line
+KRAKEN: All Woolies have exited course!  Restarting course...
+WOOLIE: Woolie_1(total=8, remaining=4, fallen=0, preserver=Optional.empty) enters course
+KRAKEN: Woolie_1 gets Preserver(id=5, buoyancy=5)
+WOOLIE: Woolie_2(total=10, remaining=7, fallen=2, preserver=Optional.empty) enters course
+WOOLIE: Woolie_1(total=8, remaining=4, fallen=0, preserver=Optional[Preserver(id=5, buoyancy=4)]) crossing course...
+KRAKEN: Woolie_2 gets Preserver(id=8, buoyancy=8)
+WOOLIE: Woolie_2(total=10, remaining=7, fallen=2, preserver=Optional[Preserver(id=8, buoyancy=7)]) crossing course...
+WOOLIE: Woolie_2(total=10, remaining=6, fallen=2, preserver=Optional[Preserver(id=8, buoyancy=6)]) crossing course...
+WOOLIE: Woolie_1(total=8, remaining=3, fallen=0, preserver=Optional[Preserver(id=5, buoyancy=3)]) crossing course...
+	WOOLIE: Woolie_2(total=10, remaining=5, fallen=2, preserver=Optional[Preserver(id=8, buoyancy=5)]) fell of the course!
+WOOLIE: Woolie_2(total=10, remaining=5, fallen=3, preserver=Optional[Preserver(id=8, buoyancy=5)]) leaves course
+KRAKEN: Woolie_2 returns Preserver(id=8, buoyancy=5)
+WOOLIE: Woolie_3(total=8, remaining=4, fallen=1, preserver=Optional.empty) enters course
+KRAKEN: Woolie_3 gets Preserver(id=8, buoyancy=5)
+WOOLIE: Woolie_2(total=10, remaining=5, fallen=3, preserver=Optional.empty) enters line
+WOOLIE: Woolie_3(total=8, remaining=4, fallen=1, preserver=Optional[Preserver(id=8, buoyancy=4)]) crossing course...
+WOOLIE: Woolie_1(total=8, remaining=2, fallen=0, preserver=Optional[Preserver(id=5, buoyancy=2)]) crossing course...
+WOOLIE: Woolie_2(total=10, remaining=5, fallen=3, preserver=Optional.empty) enters course
+KRAKEN: Woolie_2 gets Preserver(id=7, buoyancy=5)
+WOOLIE: Woolie_2(total=10, remaining=5, fallen=3, preserver=Optional[Preserver(id=7, buoyancy=4)]) crossing course...
+KRAKEN: A Woolie has fallen!  Turning off course...
+OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=4, numOnCourse=3, fallenWoolie=true, running=false, open=true, wooliesWaiting=0)
+KRAKEN: A Woolie has fallen!  Waiting for Woolies to exit course...
+KRAKEN: OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=4, numOnCourse=3, fallenWoolie=true, running=false, open=true, wooliesWaiting=0)
+KRAKEN: A Woolie has fallen!  Waiting for Woolies to exit course...
+WOOLIE: Woolie_3(total=8, remaining=3, fallen=1, preserver=Optional[Preserver(id=8, buoyancy=4)]) leaves course
+KRAKEN: OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=4, numOnCourse=2, fallenWoolie=true, running=false, open=true, wooliesWaiting=0)
+WOOLIE: Woolie_2(total=10, remaining=4, fallen=3, preserver=Optional[Preserver(id=7, buoyancy=4)]) leaves course
+KRAKEN: Woolie_3 returns Preserver(id=8, buoyancy=4)
+WOOLIE: Woolie_1(total=8, remaining=1, fallen=0, preserver=Optional[Preserver(id=5, buoyancy=2)]) leaves course
+KRAKEN: Woolie_2 returns Preserver(id=7, buoyancy=4)
+WOOLIE: Woolie_3(total=8, remaining=3, fallen=1, preserver=Optional.empty) enters line
+KRAKEN: Woolie_1 returns Preserver(id=5, buoyancy=2)
+WOOLIE: Woolie_2(total=10, remaining=4, fallen=3, preserver=Optional.empty) enters line
+WOOLIE: Woolie_1(total=8, remaining=1, fallen=0, preserver=Optional.empty) enters line
+KRAKEN: All Woolies have exited course!  Restarting course...
+WOOLIE: Woolie_3(total=8, remaining=3, fallen=1, preserver=Optional.empty) enters course
+KRAKEN: Woolie_3 can't use Preserver(id=5, buoyancy=2)
+KRAKEN: Woolie_3 gets Preserver(id=9, buoyancy=4)
+WOOLIE: Woolie_2(total=10, remaining=4, fallen=3, preserver=Optional.empty) enters course
+WOOLIE: Woolie_3(total=8, remaining=3, fallen=1, preserver=Optional[Preserver(id=9, buoyancy=3)]) crossing course...
+KRAKEN: Woolie_2 can't use Preserver(id=5, buoyancy=2)
+KRAKEN: Woolie_2 gets Preserver(id=10, buoyancy=14)
+WOOLIE: Woolie_2(total=10, remaining=4, fallen=3, preserver=Optional[Preserver(id=10, buoyancy=13)]) crossing course...
+WOOLIE: Woolie_2(total=10, remaining=3, fallen=3, preserver=Optional[Preserver(id=10, buoyancy=12)]) crossing course...
+WOOLIE: Woolie_3(total=8, remaining=2, fallen=1, preserver=Optional[Preserver(id=9, buoyancy=2)]) crossing course...
+WOOLIE: Woolie_3(total=8, remaining=1, fallen=1, preserver=Optional[Preserver(id=9, buoyancy=1)]) crossing course...
+WOOLIE: Woolie_2(total=10, remaining=2, fallen=3, preserver=Optional[Preserver(id=10, buoyancy=11)]) crossing course...
+WOOLIE: Woolie_3(total=8, remaining=0, fallen=1, preserver=Optional[Preserver(id=9, buoyancy=1)]) leaves course
+WOOLIE: Woolie_2(total=10, remaining=1, fallen=3, preserver=Optional[Preserver(id=10, buoyancy=10)]) crossing course...
+WOOLIE: Woolie_1(total=8, remaining=1, fallen=0, preserver=Optional.empty) enters course
+KRAKEN: Woolie_3 returns Preserver(id=9, buoyancy=1)
+	WOOLIE:Woolie_3(total=8, remaining=0, fallen=1, preserver=Optional.empty) finishes course!
+KRAKEN: Woolie_1 gets Preserver(id=9, buoyancy=1)
+WOOLIE: Woolie_1(total=8, remaining=1, fallen=0, preserver=Optional[Preserver(id=9, buoyancy=0)]) crossing course...
+WOOLIE: Woolie_2(total=10, remaining=0, fallen=3, preserver=Optional[Preserver(id=10, buoyancy=10)]) leaves course
+KRAKEN: Woolie_2 returns Preserver(id=10, buoyancy=10)
+WOOLIE: Woolie_1(total=8, remaining=0, fallen=0, preserver=Optional[Preserver(id=9, buoyancy=0)]) leaves course
+KRAKEN: Woolie_1 returns Preserver(id=9, buoyancy=0)
+	WOOLIE:Woolie_2(total=10, remaining=0, fallen=3, preserver=Optional.empty) finishes course!
+KRAKEN: Thread-1 destroys Optional[Preserver(id=9, buoyancy=0)]
+	WOOLIE:Woolie_1(total=8, remaining=0, fallen=0, preserver=Optional.empty) finishes course!
+KRAKEN: turning off course...
+KRAKEN: OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=4, numOnCourse=0, fallenWoolie=false, running=false, open=false, wooliesWaiting=0)
+KRAKEN: that's all folks!
+SIM: Woolie Wipeout has ended...
+SIM: Woolie results:
+	Woolie_1(total=8, remaining=0, fallen=0, preserver=Optional.empty)
+	Woolie_2(total=10, remaining=0, fallen=3, preserver=Optional.empty)
+	Woolie_3(total=8, remaining=0, fallen=1, preserver=Optional.empty)
+	Woolie_4(total=10, remaining=0, fallen=1, preserver=Optional.empty)
+SIM: Woolie/s who fell the most, 3 times:
+	Woolie_2(total=10, remaining=0, fallen=3, preserver=Optional.empty)
+SIM: Number of preservers dispensed: 10
+SIM: Remaining preservers:
+	Preserver(id=10, buoyancy=10)
+	Preserver(id=5, buoyancy=2)
+	Preserver(id=7, buoyancy=4)
+	Preserver(id=8, buoyancy=4)
+	Preserver(id=6, buoyancy=10)
+	Preserver(id=1, buoyancy=2)
+	Preserver(id=4, buoyancy=18)
+	Preserver(id=3, buoyancy=11)
+	Preserver(id=2, buoyancy=13)
+SIM: Destroyed preservers:
+	Preserver(id=9, buoyancy=0)

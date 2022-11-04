@@ -1,0 +1,13 @@
+SIM: Woolie Wipeout has begun with 0 woolie/s and a maximum of 0 woolie/s on the course
+KRAKEN: let the show begin!
+KRAKEN: turning on course...
+KRAKEN: OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=0, numOnCourse=0, fallenWoolie=false, running=true, open=false, wooliesWaiting=0)
+KRAKEN: turning off course...
+KRAKEN: OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=0, numOnCourse=0, fallenWoolie=false, running=false, open=false, wooliesWaiting=0)
+KRAKEN: that's all folks!
+SIM: Woolie Wipeout has ended...
+SIM: Woolie results:
+SIM: No Woolies fell off the course this run.
+SIM: Number of preservers dispensed: 0
+SIM: Remaining preservers:
+SIM: Destroyed preservers:
