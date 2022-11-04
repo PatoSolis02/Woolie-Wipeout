@@ -121,7 +121,12 @@ public class ObstacleCourse {
     public synchronized void enter(Woolie woolie) {
         System.out.println("WOOLIE: " + woolie + " enters line");
 
-        //TODO
+        while(numOnCourse == maxOnCourse){
+            try{
+                wait();
+            } catch(InterruptedException e){}
+        }
+        numOnCourse++;
 
         System.out.println("WOOLIE: " + woolie + " enters course");
 
@@ -139,6 +144,8 @@ public class ObstacleCourse {
     public synchronized void leave(Woolie woolie) {
         //TODO
         System.out.println("WOOLIE: " + woolie + " leaves course");
+        numOnCourse--;
+        notifyAll();
     }
 
     @Override
