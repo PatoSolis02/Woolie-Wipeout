@@ -66,6 +66,7 @@ public class Woolie extends Thread {
         this.timesFallen = 0;
         this.obstacleCourse = obstacleCourse;
         this.kraken = kraken;
+        this.preserver = Optional.empty();
     }
 
     /**
@@ -140,15 +141,36 @@ public class Woolie extends Thread {
     public void run()  {
         //TODO
         this.obstacleCourse.enter(this);
+        this.preserver = Optional.of(kraken.getPreserver(this));
         while(this.crossingTimeRemaining != 0) {
+            if(!obstacleCourse.isRunning()){
+                kraken.returnPreserver(this);
+                this.preserver = Optional.empty();
+                obstacleCourse.leave(this);
+                obstacleCourse.enter(this);
+                this.preserver = Optional.of(kraken.getPreserver(this));
+                continue;
+            }
+            if(WoolieWipeout.nextInt(1, 100) <= 5){
+                System.out.println("Woolie: " + this + " fell off the course!");
+                timesFallen++;
+                obstacleCourse.fallOff();
+                kraken.returnPreserver(this);
+                this.preserver = Optional.empty();
+                obstacleCourse.leave(this);
+                obstacleCourse.enter(this);
+                this.preserver = Optional.of(kraken.getPreserver(this));
+                continue;
+            }
             System.out.println("Woolie: " + this + " is crossing!");
             this.crossingTimeRemaining--;
+            preserver.get().use();
             try {
                 this.sleep(SLEEP_TIME);
-            }catch (InterruptedException e) {
-            }
+            }catch (InterruptedException e) {}
         }
         this.obstacleCourse.leave(this);
+        kraken.returnPreserver(this);
         System.out.println("\tWOOLIE:" + this + " finishes course!");
     }
 

@@ -120,13 +120,14 @@ public class ObstacleCourse {
      */
     public synchronized void enter(Woolie woolie) {
         System.out.println("WOOLIE: " + woolie + " enters line");
-
-        while(numOnCourse == maxOnCourse){
+        waitingLine.add(woolie);
+        while(numOnCourse == maxOnCourse || !this.isRunning() || waitingLine.get(0) != woolie){
             try{
                 wait();
             } catch(InterruptedException e){}
         }
         numOnCourse++;
+        waitingLine.remove(woolie);
 
         System.out.println("WOOLIE: " + woolie + " enters course");
 
