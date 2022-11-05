@@ -15,7 +15,7 @@ import java.util.List;
  * to try to cross again.
  *
  * @author RIT CS
- * @author YOUR NAME HERE
+ * @author Patricio Solis
  */
 public class ObstacleCourse {
     /** The maximum number of Woolies allowed on the course */

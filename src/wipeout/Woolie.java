@@ -8,7 +8,7 @@ import java.util.Optional;
  * else on the course, falling.
  *
  * @author: RIT CS
- * @author: YOUR NAME HERE
+ * @author: Patricio Solis
  */
 public class Woolie extends Thread {
     /** The minimum amount of time it takes a Woolie to cross the obstacle
